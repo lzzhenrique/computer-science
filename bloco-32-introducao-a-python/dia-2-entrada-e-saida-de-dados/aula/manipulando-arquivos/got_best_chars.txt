@@ -1,0 +1,8 @@
+character - casa
+Jaime - Lannister
+Tyrion - Lannister
+Arya - Stark
+Hound - Clegane
+Jon - Snow
+Robert - Baratheon
+Aerys - Targaryan
