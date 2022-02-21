@@ -8,6 +8,9 @@
 # Instancia: É o uso da classe que voce criou, exemplos nas linhas 24 e 25
 # Criando uma instancia, tu evoca o construtor da classe, e passa os params
 
+# Suponho que um objeto é a classe assim que o construtor é chamado
+
+
 # Pilares da POO
 # Abstração = Crie entidades/classe
 # Encapsulamento = Usar um metodo sem ter total dominio de como ele funciona
@@ -27,5 +30,5 @@ class football_coach:
 mourinho = football_coach("José Mourinho", "specialone@rome.com", "5pec1al0ne")
 pep = football_coach("Josep Guardiola", "elpep@barça.com", "tikitaka")
 
-
+# exemplo de uma mensagem ao objeto/instancia mourinho da linha 26
 mourinho.reset_password()
