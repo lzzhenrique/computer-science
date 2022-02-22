@@ -3,8 +3,10 @@ from SalesReport import SalesReport
 
 
 class SalesReportCSV(SalesReport):
+    FILE_EXTENSION = '.csv'
+
     def serialize(self):
-        with open(self.export_file + '.csv', 'w') as file:
+        with open(self.get_export_file_name(), 'w') as file:
             writer = csv.writer(file)
             writer.writerows(self.build())
 
