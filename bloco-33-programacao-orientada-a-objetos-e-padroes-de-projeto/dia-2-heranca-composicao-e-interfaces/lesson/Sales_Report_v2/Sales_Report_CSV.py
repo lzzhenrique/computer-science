@@ -15,5 +15,3 @@ class SalesReportCSV(SalesReport):
 
 
 report_sales = SalesReportCSV('meu_arquivo')
-
-print(report_sales.serialize())

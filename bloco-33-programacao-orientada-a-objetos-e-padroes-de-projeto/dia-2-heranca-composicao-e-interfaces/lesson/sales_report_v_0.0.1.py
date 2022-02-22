@@ -32,5 +32,3 @@ class SalesReport():
 
 
 report_sales = SalesReport(format='.csv', export_file='meu_relatorio')
-print(report_sales.export_file)
-print(report_sales.serializeCSV())
