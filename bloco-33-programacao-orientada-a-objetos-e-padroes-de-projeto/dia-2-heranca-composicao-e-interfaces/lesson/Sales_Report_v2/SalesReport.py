@@ -4,7 +4,9 @@ from abc import ABC, abstractmethod
 
 
 class SalesReport(ABC):
-    def __init__(self, export_file, compressor=GzCompressor()):
+    FILE_EXTENSION = ''
+
+    def __init__(self, export_file, compressor=GzCompressor):
         self.export_file = export_file
         self.compressor = compressor
 
@@ -20,18 +22,12 @@ class SalesReport(ABC):
                 'Coluna 3': 'Dado C'
                 }]
 
-    FILE_EXTENSION = ''
-
     def get_export_file_name(self):
         return self.export_file + self.FILE_EXTENSION
 
     def compress(self):
         self.serialize()
         self.compressor.compress(self.get_export_file_name())
-
-    @abstractmethod
-    def serialize(self):
-        raise NotImplementedError
 
     @abstractmethod
     def getLength(self):

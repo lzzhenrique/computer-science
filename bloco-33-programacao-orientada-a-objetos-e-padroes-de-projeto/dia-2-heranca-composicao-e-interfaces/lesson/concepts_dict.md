@@ -9,3 +9,15 @@
 
 # Interface:
   It's a conjunction of messages that your object understand
+
+# Composition: 
+ ??
+
+# Class methods:
+  Methods that can be called without a instance, because that not have sense in have a instance in this cases.
+
+
+# Static methods:
+  Like class methods, but this methods not use anything of your class.
+
+ ## E lembre-se: utilize herança para especialização de uma classe geral e composição para compartilhamento de código
