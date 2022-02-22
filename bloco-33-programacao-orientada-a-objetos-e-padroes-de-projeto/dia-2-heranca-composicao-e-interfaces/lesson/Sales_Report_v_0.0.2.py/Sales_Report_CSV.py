@@ -8,6 +8,9 @@ class SalesReportCSV(SalesReport):
             writer = csv.writer(file)
             writer.writerows(self.build())
 
+    def getLength(self):
+        print(len(self.build()))
+
 
 report_sales = SalesReportCSV('meu_arquivo')
 
