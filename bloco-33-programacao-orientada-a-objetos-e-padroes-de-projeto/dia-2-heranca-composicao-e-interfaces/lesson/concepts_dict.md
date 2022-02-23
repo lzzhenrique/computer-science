@@ -11,7 +11,7 @@
   It's a conjunction of messages that your object understand
 
 # Composition: 
- ??
+ composição é quando uma classe recebe a instancia de uma outra classe como parametro, e ai tu tem que definir essa instancia antes de passar como parametro, seja na hora de evocar a classe que vai receber o parametro, seja antes e passar como param, seja ate dentro da classe.
 
 # Class methods:
   Methods that can be called without a instance, because that not have sense in have a instance in this cases.
