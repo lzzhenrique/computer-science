@@ -1,0 +1,5 @@
+{
+  "python.analysis.extraPaths": [
+    "./lesson/Sales_Report_v2/compressors"
+  ]
+}
