@@ -1,4 +1,4 @@
-from Interface.Connector import Connector
+from lesson.Interfaces.FullConnector import Connector
 pyredis = {}
 
 
