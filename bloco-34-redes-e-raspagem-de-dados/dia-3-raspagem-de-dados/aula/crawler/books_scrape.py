@@ -13,7 +13,7 @@ while next_page_url:
 
     for product in selector.css(".product_pod"):
         title = product.css("h3 a::attr(title)").get()
-        price = product.css(".price_color::text").re(r"£\d+\.\d{2}")
+        price = product.css(".price_color:: text").re(r"£\d+\.\d{2}")
         href = product.css(".image_container a::attr(href)").get()
 
         detail_page = requests.get(URL_BASE + href)
