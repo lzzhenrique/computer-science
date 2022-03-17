@@ -9,21 +9,21 @@
 # countdown(5)
 
 
-def factorial_recursive(n):
-    if n == 1:
-        return n
+# def factorial_recursive(n):
+#     if n == 1:
+#         return n
 
-    return n * factorial_recursive(n - 1)
-
-
-print(factorial_recursive(5))
+#     return n * factorial_recursive(n - 1)
 
 
-def recursive_sum(n):
-    if n == 1:
-        return n
-
-    return n + recursive_sum(n - 1)
+# print(factorial_recursive(5))
 
 
-print(recursive_sum(4))
+# def recursive_sum(n):
+#     if n == 1:
+#         return n
+
+#     return n + recursive_sum(n - 1)
+
+
+# print(recursive_sum(4))
