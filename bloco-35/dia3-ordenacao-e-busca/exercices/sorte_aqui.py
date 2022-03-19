@@ -1,4 +1,4 @@
-my_list = [3, 24, 14, 25, 10, 9]
+# my_list = [3, 24, 14, 25, 10, 9]
 # 9, 22, 15, 0, 2, 11, 13, 23, 4, 18, 8, 5, 29, 28, 7, 1, 27
 # 998, 17, 16, 20, 21, 12, 6, 26, 19
 
@@ -28,5 +28,5 @@ def quick_sort(list1, inicio=0, fim=None):
         quick_sort(list1, pivot_position + 1, fim)
 
 
-quick_sort(my_list)
-print(my_list)
+# quick_sort(my_list)
+# print(my_list)
