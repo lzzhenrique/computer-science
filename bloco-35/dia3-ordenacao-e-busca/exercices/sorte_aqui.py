@@ -1,8 +1,3 @@
-# my_list = [3, 24, 14, 25, 10, 9]
-# 9, 22, 15, 0, 2, 11, 13, 23, 4, 18, 8, 5, 29, 28, 7, 1, 27
-# 998, 17, 16, 20, 21, 12, 6, 26, 19
-
-
 def find_pivot(list, inicio, last_position):
     pivot = list[last_position]
     pivot_pos = inicio

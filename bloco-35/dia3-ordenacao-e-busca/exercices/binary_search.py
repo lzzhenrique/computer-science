@@ -1,4 +1,4 @@
-my_list = [0, 1, 2, 2, 2, 4, 4, 5, 6, 7, 7, 8, 9, 11, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 21, 22, 23, 23, 26, 27, 28, 29, 30, 41, 998]
+# my_list = [0, 1, 2, 2, 2, 4, 4, 5, 6, 7, 7, 8, 9, 11, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 21, 22, 23, 23, 26, 27, 28, 29, 30, 41, 998]
 
 # VERSAO 1
 # 20 operacoes para achar o valor 30
@@ -69,4 +69,4 @@ def binary_search(array, item, start=0, end=None):
     return None
 
 
-print(binary_search(my_list, 27))
+# print(binary_search(my_list, 27))
