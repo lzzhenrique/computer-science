@@ -1,0 +1,1 @@
+).difference(set(lista1_entregues)))
